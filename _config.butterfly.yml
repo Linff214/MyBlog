@@ -3,15 +3,16 @@
 # --------------------------------------
 
 menu:
-# Home: / || fas fa-home
-# Archives: /archives/ || fas fa-archive
-# Tags: /tags/ || fas fa-tags
-# Categories: /categories/ || fas fa-folder-open
-# List||fas fa-list:
-#   Music: /music/ || fas fa-music
-#   Movie: /movies/ || fas fa-video
-# Link: /link/ || fas fa-link
-# About: /about/ || fas fa-heart
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单||fa fa-heartbeat:
+    音乐: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 nav:
   logo: # image
@@ -21,28 +22,28 @@ nav:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: pale night #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
+highlight_height_limit: 100 # unit: px
 code_word_wrap: false
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
-copy:
+copy: 
   enable: true
-  copyright:
-    enable: false
+  copyright: 
+    enable: true
     limit_count: 50
 
 # social settings (社交圖標設置)
 # formal:
 #   icon: link || the description
 social:
-# fab fa-github: https://github.com/xxxxx || Github
-# fas fa-envelope: mailto:xxxxxx@gmail.com || Email
-
+  fab fa-github: https://github.com/Linff214 || Github || "#hdhfbb"
+  fas fa-envelope: mailto:xxxxxx@gmail.com || Email || "#000000"
+  fa-solid fa-layer-group: blog.Linff214.com || 博客
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
 # --------------------------------------
@@ -94,38 +95,37 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /img/头像.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: /img/背景4.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: /img/背景4.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: /img/背景4.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: /img/背景4.jpg
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img:
+tag_per_img: /img/背景4.jpg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
-
+category_img: /img/背景4.jpg
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img:
+category_per_img: /img/背景4.jpg
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -155,7 +155,7 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -178,16 +178,17 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
-# anchor
+# anchor6
 anchor:
   button:
     enable: false
     always_show: false
     icon: # the unicode value of Font Awesome icon, such as '\3423'
-  auto_update: false # when you scroll in post, the URL will update according to header id.
+  auto_update: true # when you scroll in post, the URL will update according to header id.
+  click_to_scroll: true
 
 # Post
 # --------------------------------------
@@ -195,7 +196,7 @@ anchor:
 # toc (目錄)
 toc:
   post: true
-  page: false
+  page: true
   number: true
   expand: false
   style_simple: false # for post
@@ -234,7 +235,7 @@ related_post:
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # post_pagination (分頁)
 # value: 1 || 2 || false
@@ -441,7 +442,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: <a href="icp链接"><img class="icp-icon" src="icp图片"><span>欢迎来到我的博客😈</span></a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -529,11 +530,10 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(/img/背景2.jfif)
 
 # Footer Background
 footer_bg: false
-
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
 
@@ -584,7 +584,7 @@ fireworks:
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
@@ -631,7 +631,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
@@ -643,7 +643,7 @@ subtitle:
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 2
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
@@ -677,7 +677,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/Linff214
   card_announcement:
     enable: true
     content: This is my Blog
@@ -826,7 +826,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -889,7 +889,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/style.css">
   bottom:
   # - <script src="xxxx"></script>
 
