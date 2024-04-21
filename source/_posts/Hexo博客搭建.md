@@ -76,3 +76,41 @@ git branch -M main
 git push -u origin main
 
 `git push -u origin main`
+
+## Gulp压缩
+
+1.安装Gulp的cli
+
+`npm install --global gulp-cli`
+
+2.安装gulp工具
+
+`npm install gulp -g`
+
+3.压缩HTML
+
+`npm install gulp-htmlclean --save-dev`
+
+`npm install --save gulp-html-minifier-terser`
+
+4.压缩CSS
+
+`npm install gulp-clean-css --save-dev`
+
+5.
+
+`npm install --save-dev gulp-uglify`
+
+`npm install --save-dev gulp-babel @babel/core @babel/preset-env`
+
+6.压缩图片
+
+`npm install --save-dev gulp-imagemin`
+
+7.创建gulpfile文件
+
+图标库——fontawesome
+
+PICGO的token —— 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
+
+自定义域名——https://cdn.jsdelivr.net/gh/Linff214/picodemo
