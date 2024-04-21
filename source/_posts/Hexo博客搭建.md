@@ -42,7 +42,7 @@ tags: [环境配置/搭建]
 
 1.`git clone + 仓库地址`
 
-![image-20240419210024323](C:\Users\lin'xin'xin\AppData\Roaming\Typora\typora-user-images\image-20240419210024323.png)
+![image-20240419210024323](https://cdn.jsdelivr.net/gh/Linff214/picodemo/img/image-20240419210024323.png)
 
 2.安装依赖 `npm install`
 
