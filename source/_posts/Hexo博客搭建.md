@@ -38,6 +38,7 @@ tags: [环境配置/搭建]
 
 顺序：clean-> 生成->预览->上传
 
+
 ## 如果blog整个文件丢失解决办法
 
 1.`git clone + 仓库地址`
@@ -58,24 +59,20 @@ tags: [环境配置/搭建]
 
 ### ...or create a new repository on the command line
 
-`echo "# blog" >> README.md`
-`git init`
-`git add README.md`
 
-`git add .`
-
-`git commit -m"first commit(改成自己的仓库文件夹)"`//提交到了本地
-`git branch -M main`//推上远程
-`git remote add origin https://github.com/constown/blog.git`
-`git push -u origin main`
+echo "# blog" >> README.md
+git init
+git add README.md
+git add .
+git commit -m"first commit(改成自己的仓库文件夹)"//提交到了本地
+git branch -M main//推上远程
+git remote add origin https://github.com/constown/blog.git
+git push -u origin main
 
 ### ..or push an existing repository from the command line
 
-`git remote add origin https://github.com/constown/blog.git`
-`git branch -M main`
+git remote add origin https://github.com/constown/blog.git`
+git branch -M main
+git push -u origin main
+
 `git push -u origin main`
-
-
-
-
-
