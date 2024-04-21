@@ -113,4 +113,3 @@ git push -u origin main
 
 PICGO的token —— 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
 
-自定义域名——https://cdn.jsdelivr.net/gh/Linff214/picodemo
