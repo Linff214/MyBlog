@@ -1,0 +1,40 @@
+- class_name: 即刻短文
+  essay_list:
+    - content: 半夜刷到这个视频，给我绷不住了，连夜改了代码，适配了视频，发出来给大伙乐一乐
+      bilibili: BV1RD421n7qo
+      date: 2024/04/24
+    - content:
+        GitHub push开启代理： <br>
+        git config --global http.proxy http://127.0.0.1:7890 <br>
+        git config --global https.proxy http://127.0.0.1:7890 <br>
+        关闭代理： <br>
+        git config --global --unset http.proxy <br>
+        git config --global --unset https.proxy <br>
+      date: 2024/01/24 13:00:00
+      from: June
+    - content: 即刻短文搭起来啦🎉🎉🎉
+      date: 2024/01/23 20:00:00
+      from: June
+    - content:
+        IDM激活：<br>
+        管理员身份打开PowerShell，<br>
+        输入命令：irm https://massgrave.dev/ias | iex
+      date: 2024/01/15
+      link: https://massgrave.dev/idm-activation-script.html
+    - content: 📮²⁰²⁴/₀₁.₀₁ 冬事未眠，祝我们都好在来年
+      date: 2024/01/01
+      image:
+        - https://img.june-pj.cn/img/2024/01/23/6ac9ce1a846dbffe405ff18747fb07c.jpg
+        - https://img.june-pj.cn/img/2024/01/23/1d54afeb4ba537ec21d96b8e76f99cb.jpg
+        - https://img.june-pj.cn/img/cover.webp
+        - https://img.june-pj.cn/img/2024/01/23/09846c94dc67c9455d0364046a71d37.jpg
+      location: 深圳
+    - content: 太棒啦，找到工作力😋
+      image:
+        - https://img.june-pj.cn/img/2024/01/23/20240123205614.png
+      date: 2023/11/02
+      from: June
+      location: 长沙
+    - content: 最近网易云音乐的会员忘记续费了，但充值活动还没到时间，就想着将就着听会，没想到歌单里蛮多想听的歌听不了，只能试听。这不能忍，直接在网上找到了Spotify，不过稍微有点麻烦。
+      date: 2023/05/14
+      link: https://blog.june-pj.cn/posts/a39a199/
