@@ -28,7 +28,7 @@
     "hexo-theme-landscape": "^0.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.4",
+    "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.4",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
