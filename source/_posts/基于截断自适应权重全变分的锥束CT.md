@@ -3,6 +3,7 @@ title: 基于截断自适应权重全变分的锥束CT
 date: 2024-05-22 23:45:32
 tags: L0
 categories: 科研/论文
+cover: /img/4.jpg
 ---
 
 Cone-beam computed tomography based on truncated adaptive-weight total variation

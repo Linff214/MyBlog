@@ -4,6 +4,7 @@ title: Deep Learning
 date: 2024-05-16 15:43:22
 tags: 科研
 categories: 工作/项目
+cover: /img/7.jpg
 ---
 
 

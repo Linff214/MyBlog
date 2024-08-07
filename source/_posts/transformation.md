@@ -4,7 +4,7 @@ title: 基于投影变换的锥束层析成像重建方法
 date: 2024-04-21 15:51:19
 tags: 科研
 categories: 科研
-cover: /img/猫猫3.jpg
+cover: /img/8.jpg
 ---
 # A reconstruction method for cone-beam computed laminography based on projection transformation
 

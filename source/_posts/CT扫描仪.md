@@ -3,6 +3,7 @@ layout: 一种用于快速和光谱成像的三光源锥形束micro
 title: CT扫描仪
 date: 2024-05-22 23:38:45
 tags: 科研
+cover: /img/8.jpg
 ---
 # 一种用于快速和光谱成像的三光源锥形束Micro - CT扫描仪
 

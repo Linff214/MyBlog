@@ -3,6 +3,7 @@ title: JavaSE学习
 date: 2024-04-27 20:29:11
 tags: Java
 categories: 工作/项目
+cover: /img/6.jpg
 ---
 
 # 1 Java语言概述

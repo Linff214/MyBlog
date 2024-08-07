@@ -3,6 +3,7 @@ title: MySQL
 date: 2024-05-15 15:48:58
 tags: 数据库
 categories: 工作/项目
+cover: /img/9.jpg
 ---
 
 # 数据库与数据库管理系统
