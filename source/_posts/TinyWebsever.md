@@ -208,3 +208,37 @@ cd TinyWebServer
 ./webbench -c 1001 -t 5 http://127.0.0.1:9006/
 ```
 
+![image-20240807181510572](https://cdn.jsdelivr.net/gh/Linff214/picodemo/img/image-20240807181510572.png)
+
+# 写在最后，学习建议
+
+1. [【网络编程知识】什么是Socket？概念及原理分析-云社区-华为云 (huaweicloud.com)](https://bbs.huaweicloud.com/blogs/344188)
+2. 建议跟一遍原书《Linux高性能服务器编程》游双著
+3. 源码地址[TinyWebServer::fire: Linux下C++轻量级WebServer服务器 - GitCode](https://gitcode.com/gh_mirrors/ti/TinyWebServer/blob/master/README.md?utm_source=csdn_github_accelerator&isLogin=1)（里面有社长的文章分析）
+4. 非常优秀的博主[TinyWebServer_千帐灯无此声的博客-CSDN博客](https://blog.csdn.net/csdner250/category_12592505.html)
+5. [11days/TinyWebServer: TinyWebServer一百小时 (github.com)](https://github.com/11days/TinyWebServer?tab=readme-ov-file)
+6. [从零开始实现C++ TinyWebServer（一）---- 项目总述_tinywebserver项目讲解-CSDN博客](https://blog.csdn.net/weixin_51322383/article/details/130470806)
+   1. 优秀的学长博客[从零开始实现C++ TinyWebServer 全过程记录_tinywebserver要做多久-CSDN博客](https://blog.csdn.net/weixin_51322383/article/details/130464403?spm=1001.2014.3001.5502)
+
+7. [9.2 I/O 多路复用：select/poll/epoll | 小林coding (xiaolincoding.com)](https://www.xiaolincoding.com/os/8_network_system/selete_poll_epoll.html)
+8. [【网络编程知识】什么是Socket？概念及原理分析-云社区-华为云 (huaweicloud.com)](https://bbs.huaweicloud.com/blogs/344188)
+
+## 庖丁解牛
+
+近期版本迭代较快，以下内容多以旧版本(raw_version)代码为蓝本进行详解.
+
+- [小白视角：一文读懂社长的TinyWebServer](https://huixxi.github.io/2020/06/02/小白视角：一文读懂社长的TinyWebServer/#more)
+- [最新版Web服务器项目详解 - 01 线程同步机制封装类](https://mp.weixin.qq.com/s?__biz=MzAxNzU2MzcwMw==&mid=2649274278&idx=3&sn=5840ff698e3f963c7855d702e842ec47&chksm=83ffbefeb48837e86fed9754986bca6db364a6fe2e2923549a378e8e5dec6e3cf732cdb198e2&scene=0&xtrack=1#rd)
+- [最新版Web服务器项目详解 - 02 半同步半反应堆线程池（上）](https://mp.weixin.qq.com/s?__biz=MzAxNzU2MzcwMw==&mid=2649274278&idx=4&sn=caa323faf0c51d882453c0e0c6a62282&chksm=83ffbefeb48837e841a6dbff292217475d9075e91cbe14042ad6e55b87437dcd01e6d9219e7d&scene=0&xtrack=1#rd)
+- [最新版Web服务器项目详解 - 03 半同步半反应堆线程池（下）](https://mp.weixin.qq.com/s/PB8vMwi8sB4Jw3WzAKpWOQ)
+- [最新版Web服务器项目详解 - 04 http连接处理（上）](https://mp.weixin.qq.com/s/BfnNl-3jc_x5WPrWEJGdzQ)
+- [最新版Web服务器项目详解 - 05 http连接处理（中）](https://mp.weixin.qq.com/s/wAQHU-QZiRt1VACMZZjNlw)
+- [最新版Web服务器项目详解 - 06 http连接处理（下）](https://mp.weixin.qq.com/s/451xNaSFHxcxfKlPBV3OCg)
+- [最新版Web服务器项目详解 - 07 定时器处理非活动连接（上）](https://mp.weixin.qq.com/s/mmXLqh_NywhBXJvI45hchA)
+- [最新版Web服务器项目详解 - 08 定时器处理非活动连接（下）](https://mp.weixin.qq.com/s/fb_OUnlV1SGuOUdrGrzVgg)
+- [最新版Web服务器项目详解 - 09 日志系统（上）](https://mp.weixin.qq.com/s/IWAlPzVDkR2ZRI5iirEfCg)
+- [最新版Web服务器项目详解 - 10 日志系统（下）](https://mp.weixin.qq.com/s/f-ujwFyCe1LZa3EB561ehA)
+- [最新版Web服务器项目详解 - 11 数据库连接池](https://mp.weixin.qq.com/s?__biz=MzAxNzU2MzcwMw==&mid=2649274326&idx=1&sn=5af78e2bf6552c46ae9ab2aa22faf839&chksm=83ffbe8eb4883798c3abb82ddd124c8100a39ef41ab8d04abe42d344067d5e1ac1b0cac9d9a3&token=1450918099&lang=zh_CN#rd)
+- [最新版Web服务器项目详解 - 12 注册登录](https://mp.weixin.qq.com/s?__biz=MzAxNzU2MzcwMw==&mid=2649274431&idx=4&sn=7595a70f06a79cb7abaebcd939e0cbee&chksm=83ffb167b4883871ce110aeb23e04acf835ef41016517247263a2c3ab6f8e615607858127ea6&token=1686112912&lang=zh_CN#rd)
+- [最新版Web服务器项目详解 - 13 踩坑与面试题](https://mp.weixin.qq.com/s?__biz=MzAxNzU2MzcwMw==&mid=2649274431&idx=1&sn=2dd28c92f5d9704a57c001a3d2630b69&chksm=83ffb167b48838715810b27b8f8b9a576023ee5c08a8e5d91df5baf396732de51268d1bf2a4e&token=1686112912&lang=zh_CN#rd)
+- 已更新完毕
